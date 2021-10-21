@@ -1,0 +1,16 @@
+Bienvenue sur le projet OCR de l'équipe JSML
+
+Pour compilier utiliser "make"
+Puis utiliser :
+
+./main digitalProcess 'path' --> to applique a pretraitement to a picture
+
+./main segmentation 'path' --> to use segmentation on a picture
+
+./main neuralNetwork 'path' --> to predict a char --> Warning you must use 28*28 picture binarize
+
+./main neuralNetwork beginTraining --> to start a new training --> Warning it will erase actual Value for our network
+
+./main neuralNetwork continueTraining int --> to continue a training --> int is the last iteration you make (you can put any value
+
+
